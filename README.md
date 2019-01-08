@@ -1,1 +1,1 @@
-# danin_blog
+# danin-blog
