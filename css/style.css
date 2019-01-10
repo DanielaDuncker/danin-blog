@@ -1,35 +1,45 @@
 body {
     background-color:lightgreen;
-   }
+}
 
 
-   h1 {
-       color: darkcyan;
-       text-decoration: underline;
-    }
+h1 {
+   color: darkcyan;
+   text-decoration: underline;
+   letter-spacing: 2px;
+   font-size: 60px;
+}
 
 
-    a {
-        color: darkorange;
-    }
+a {
+    color: darkorange;
+}
 
-    #text {
-        color: darkolivegreen;
-    }
+#text {
+    color: darkolivegreen;
+}
 
 
-    blockquote {
-        color: red;
-    }
+blockquote {
+    color: red;
+}
 
-    #search {
-        color: darkgreen;
-    }
+a#search {
+    color: darkgreen;
+}
 
-    a:hover{
-        background-color: aquamarine;
-    }
+a#search:hover {
+    color: aquamarine;
+}
 
-    a:active{
-        background-color: green;
-    }
+a#search:active{
+    color: yellow;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:active {
+    color: yellow;
+}

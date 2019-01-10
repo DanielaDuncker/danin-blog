@@ -1,26 +1,37 @@
 body {
     background-color:lightgreen;
-   }
+}
 
 
-   h1 {
-       color: darkcyan;
-       text-decoration: underline;
-    }
+h1 {
+   color: darkcyan;
+   text-decoration: underline;
+   letter-spacing: 2px;
+   font-size: 40px;
+}
 
 
-    a {
-        color: darkorange;
-    }
+a {
+    color: darkorange;
+}
 
-    #text {
-        color: darkolivegreen;
-    }
+#text {
+    color: darkolivegreen;
+}
 
-    a:hover{
-        background-color: aquamarine;
-    }
+a:hover{
+    background-color: aquamarine;
+}
 
-    a:active{
-        background-color: green;
-    }
+a:active{
+    background-color: green;
+}
+
+    
+a:hover {
+    color: aquamarine;
+}
+
+a:active {
+    color: yellow;
+}
