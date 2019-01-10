@@ -5,6 +5,7 @@ body {
 
    h1 {
        color: darkcyan;
+       text-decoration: underline;
     }
 
 
@@ -21,11 +22,14 @@ body {
         color: red;
     }
 
-
-    #footer {
-        font-size: 70%;
-    }
-
     #search {
         color: darkgreen;
+    }
+
+    a:hover{
+        background-color: aquamarine;
+    }
+
+    a:active{
+        background-color: green;
     }

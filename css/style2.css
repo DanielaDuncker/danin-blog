@@ -1,0 +1,26 @@
+body {
+    background-color:lightgreen;
+   }
+
+
+   h1 {
+       color: darkcyan;
+       text-decoration: underline;
+    }
+
+
+    a {
+        color: darkorange;
+    }
+
+    #text {
+        color: darkolivegreen;
+    }
+
+    a:hover{
+        background-color: aquamarine;
+    }
+
+    a:active{
+        background-color: green;
+    }
