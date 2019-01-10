@@ -1,4 +1,31 @@
 body {
     background-color:lightgreen;
    }
-   h1 {color: darkcyan;}
+
+
+   h1 {
+       color: darkcyan;
+    }
+
+
+    a {
+        color: darkorange;
+    }
+
+    #text {
+        color: darkolivegreen;
+    }
+
+
+    blockquote {
+        color: red;
+    }
+
+
+    #footer {
+        font-size: 70%;
+    }
+
+    #search {
+        color: darkgreen;
+    }
