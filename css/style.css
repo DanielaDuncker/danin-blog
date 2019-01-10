@@ -1,5 +1,6 @@
 body {
     background-color:lightgreen;
+    font-family: trebuchet MS;
 }
 
 
@@ -8,6 +9,7 @@ h1 {
    text-decoration: underline;
    letter-spacing: 2px;
    font-size: 60px;
+   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
@@ -43,3 +45,5 @@ a:hover {
 a:active {
     color: yellow;
 }
+
+/* suppilovahvero */

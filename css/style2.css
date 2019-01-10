@@ -1,5 +1,6 @@
 body {
     background-color:lightgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -8,6 +9,7 @@ h1 {
    text-decoration: underline;
    letter-spacing: 2px;
    font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
