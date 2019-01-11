@@ -5,11 +5,15 @@ body {
     margin: 0px;
 }
 
+* {
+    box-sizing: border-box
+}
 
 header {
     background-color: rgb(255, 207, 117);
     padding: 5px;
     margin: 40px 120px 10px 120px;
+    border-radius: 200px;
 }
 
 main {
