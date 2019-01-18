@@ -11,7 +11,6 @@
 .image6 { grid-area: image6; }
 .image7 { grid-area: image7; }
 .image8 { grid-area: image8; }
-.image9 { grid-area: image9; }
 .nav {grid-area: nav; }
 .empty { grid-area: empty; }
 .footer { grid-area: footer; }
@@ -25,7 +24,6 @@
     'image3 image4'
     'image5 image6'
     'image7 image8'
-    'image9 image9'
     'empty empty'
     'footer footer';
     grid-template-columns: 1fr 1fr;
@@ -106,7 +104,6 @@ a:active {
     image6'
     'image7'
     image8'
-    'image9'
     'empty'
     'footer';
     grid-template-columns: 1fr;
@@ -154,10 +151,6 @@ a:active {
   }
   .image8{
     grid-row: 10 / 11;
-    grid-column: 1 / 2;
-  }
-  .image9{
-    grid-row: 11 / 12;
     grid-column: 1 / 2;
   }
   .empty{
