@@ -26,12 +26,14 @@
     'image7 image8'
     'empty empty'
     'footer footer';
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     background-color:lightgreen;
     text-align:center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
 }
 
 body{
@@ -112,6 +114,7 @@ a:active {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
+    width: 100%;
   }
   .header{
     border-radius: 200px;
