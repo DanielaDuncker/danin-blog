@@ -32,8 +32,21 @@
     text-align:center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px auto;
+}
+
+.image-container{
+  display: grid;
+    grid-template-areas:
+    'image1 image2 '
+    'image3 image4'
+    'image5 image6'
+    'image7 image8';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0px auto;
     grid-row-gap: 10px;
     grid-column-gap: 20px;
+    width: 800px;
 }
 
 body{
@@ -52,14 +65,14 @@ body{
 .footer{
     background-color: rgb(255, 117, 117);
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 h1 {
    color: #47A83F;
    text-decoration: underline;
    letter-spacing: 2px;
-   font-size: 40px;
+   font-size: 51px;
    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -116,6 +129,22 @@ a:active {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     width: 100%;
+  }
+  .image-container{
+    display: grid;
+      grid-template-areas:
+      'image1'
+      'image2'
+      'image3'
+      'image4'
+      'image5'
+      'image6'
+      'image7'
+      'image8';
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      margin: 0px;
+      width: 100%;
   }
   .header{
     border-radius: 200px;
